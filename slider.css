@@ -29,3 +29,27 @@ h3
 	text-align: center;
 }
 
+
+.navbar-default, .dropdown-menu
+{
+	background-color: rgb(128,128,255);
+	margin-top: 2%;
+}
+
+#menu ul a
+{
+	color: white;
+	margin-left: 10%;
+	font-size: 22px;
+
+}
+
+#menu ul a:hover
+{
+	text-decoration: none;
+	color: red;
+
+}
+
+
+
