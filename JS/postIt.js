@@ -1,12 +1,9 @@
 window.onload = init;
 
 function init(){
-document.getElementById('btnAfficher').removeEventListener("click", post4, false);
-document.getElementById('btnAfficher').removeEventListener("click", post5, false);
+
 document.getElementById('btnAfficher').addEventListener("click", postSVA, false);
 document.getElementById('btnAfficher').addEventListener("click", postTA, false);
-
-
 document.getElementById('btnCache').addEventListener("click", postSC, false);
 document.getElementById('survol').addEventListener("mouseover", postSVA, false);
 document.getElementById('survol').addEventListener("mouseover", post3, false);
