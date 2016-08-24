@@ -1,33 +1,48 @@
 window.onload = init;
 
+function init(){
+document.getElementById('btnAfficher').removeEventListener("click", post4, false);
+document.getElementById('btnAfficher').removeEventListener("click", post5, false);
+document.getElementById('btnAfficher').addEventListener("click", postSVA, false);
+document.getElementById('btnAfficher').addEventListener("click", postTA, false);
 
-window.addEventListener("load", post2, false);
-document.getElementById('btnAfficher').addEventListener("click", post, false);
-document.getElementById('btnAfficher').addEventListener("click", post1, false);
-document.getElementById('btnCache').addEventListener("click", post2, false);
-document.getElementById('survol').addEventListener("mouseover", post, false);
+
+document.getElementById('btnCache').addEventListener("click", postSC, false);
+document.getElementById('survol').addEventListener("mouseover", postSVA, false);
 document.getElementById('survol').addEventListener("mouseover", post3, false);
-document.getElementById('survol').removeEventListener("mouseout", post, false);
-document.getElementById('survol').removeEventListener("mouseout", post3, false);
-
-
-function post()
-{
-  document.getElementById('affiche').style.visibility = "visible";
-
+document.getElementById('survol').addEventListener("mouseout", post4, false);
+document.getElementById('survol').addEventListener("mouseout", post5, false);
 }
 
-function post1()
+var afficher = document.getElementById('affiche');
+var ecrireText = document.getElementById('text');
+
+function postSVA()
 {
-  document.getElementById('text').innerHTML = "Vous avez cliqué sur le bouton : Affiche, merci pour la couleur!";
+  afficher.style.visibility = "visible";
 }
 
-function post2()
+function postTA()
 {
-    document.getElementById('affiche').style.visibility = "hidden";
+  ecrireText.innerHTML = "Vous avez cliqué sur le bouton : Affiche, merci pour la couleur!";
+}
+
+function postSC()
+{
+    afficher.style.visibility = "hidden";
 }
 
 function post3()
 {
-  document.getElementById('text').innerHTML = "C'est gentil de me survoler...";
+  ecrireText.innerHTML = "C'est gentil de me survoler...";
+}
+
+function post4()
+{
+  afficher.style.visibility = "hidden";
+
+}
+
+function post5(){
+  ecrireText.innerHTML = "";
 }
