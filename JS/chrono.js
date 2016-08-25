@@ -61,6 +61,7 @@ function affichage()
 function startTimer() {
 
  time = setInterval(myTimer, 1000);
+ 
  document.getElementById('stop').disabled = false;
  document.getElementById('pause').disabled = false;
  document.getElementById('start').disabled = true;

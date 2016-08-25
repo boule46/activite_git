@@ -19,19 +19,36 @@
   <body class="container">
 <br>
 <br>
-<form action="#" method="post">
+<form action="http://www.afpa.fr" method="post" onsubmit="return checkForm(this);">
 
   <p>Saisissez un text puis pressez le bouton 'Contrôle'</p>
 
-  <input type="text" name="texte">
+  <input type="text" name="texte" required="true">
+  <input type="email" name="email" required="true">
   <input type="submit" value="Contrôler">
 
 
 </form>
 
+<form action="http://www.afpa.fr" method="post">
+
+  <p>Saisissez un text puis pressez le bouton 'Contrôle'</p>
+
+  <input type="text" name="texte1" required="true">
+  <input type="submit" value="Contrôler" id="form2">
 
 
+</form>
 
+<form action="#" method="post">
+
+  <p>Saisissez un text puis pressez le bouton 'Contrôle'</p>
+
+  <input type="text"  name="texte2" required="true">
+  <input type="submit" value="Contrôler">
+
+
+</form>
 <script src="controle.js"></script>
   </body>
 </html>
