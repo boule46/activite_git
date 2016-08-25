@@ -23,20 +23,19 @@ function pauseTimer()
   clearInterval(time);
 
   //Avec la pause à deux fonctionnes le code ne marche pas très bien
-  //document.getElementById('pause').removeEventListener("click", pauseTimer, false);
- //document.getElementById('pause').addEventListener("click", restartTimer, false);
-
-
+  document.getElementById('pause').removeEventListener("click", pauseTimer, false);
+ document.getElementById('pause').addEventListener("click", restartTimer, false);
+ document.getElementById('start').disabled = true;
+document.getElementById('stop').disabled = true;
 }
 
-// function restartTimer()
-// {
-//   document.getElementById('timer').innerHTML = startTimer();
-//     document.getElementById('pause').removeEventListener("click", restartTimer, false);
-//
-//
-//   document.getElementById('pause').addEventListener("click", pauseTimer, false);
-// }
+function restartTimer()
+{
+   startTimer();
+    document.getElementById('pause').removeEventListener("click", restartTimer, false);
+  document.getElementById('pause').addEventListener("click", pauseTimer, false);
+  document.getElementById('stop').disabled = false;
+}
 
 
 function stopTimer()
@@ -45,7 +44,9 @@ function stopTimer()
   clearInterval(time);
   document.getElementById('timer').innerHTML = "";
   affichage();
-
+document.getElementById('pause').disabled = true;
+document.getElementById('stop').disabled = true;
+document.getElementById('start').disabled = false;
 }
 
 function affichage()
@@ -60,6 +61,9 @@ function affichage()
 function startTimer() {
 
  time = setInterval(myTimer, 1000);
+ document.getElementById('stop').disabled = false;
+ document.getElementById('pause').disabled = false;
+ document.getElementById('start').disabled = true;
 
 }
 
@@ -76,9 +80,6 @@ function myTimer()
     heure += 1;
     min = 00;
   }
-
-
-
   document.getElementById('timer').innerHTML = AddZeros(heure) + ":" + AddZeros(min) + ":" + AddZeros(sec);
 }
 
