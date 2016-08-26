@@ -1,7 +1,7 @@
 
 
 
-[
+var text =[
   {
     "libelle": "Le plus grand livre de JavaScript",
     "ref":"001",
@@ -92,4 +92,4 @@
     "quantite":"100",
     "prixU":"100 euros"
   },
-]
+];
