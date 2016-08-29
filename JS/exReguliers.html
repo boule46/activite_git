@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+        <meta charset="utf-8" />
+        <title>Mon 1er Script</title>
+        <link rel="shortcut icon" type="image/x-icon" href=" bee.png" />
+
+        <!-- JQUERY -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+
+
+
+    </head>
+
+    <body>
+      <form action="#" onsubmit="return checkForm();">
+        <fieldset>
+          <legend>Saisie des informations vous concernant</legend>
+          <p>Sexe : <input type="radio" name="sexe" value="homme" checked="true">Homme<input type="radio" name="sexe" value="femme">Femme<span></p>
+          <p>Nom : <input type="text" name="nom" required="true"></p>
+          <p>Prénom : <input type="text" name="prenom" required="true"></p>
+          <p>Adresse : <input type="text" name="adresse" required="true"></p>
+          <p>Code Postal Ville : <input type="text" name="codePostal" required="true"><input type="text" name="ville" required="true"><span id="codePostal"></span></p>
+          <p>Pays : <select name="pays">
+                      <option value="Belgique">Belgique</option>
+                      <option value="Allemagne">Allemagne</option>
+                      <option value="Italie">Italie</option>
+                      <option value="Suisse">Suisse</option>
+                      <option value="Luxembourg">Luxembourg</option>
+                      <option value="Espagne">Espagne</option>
+                      <option value="Angleterre">Angleterre</option>
+                    </select></p>
+            <p>Adresse mail : <input type="email" name="mail" required="true">
+            <p>Tél Format Inter : <input type="text" name="tel" required="true"><span id="tele"></span></p>
+            <p>Vos centres d'intérets <input type="checkbox" name="centre" value="bricolage" checked="true">Bricolage<input type="checkbox" name="centre" value="jardinage">Jardinage<input type="checkbox" name="centre" value="lecture">Lecture<input type="checkbox" name="centre" value="voyages">Voyages</p>
+            <p><input type="submit" name="submit" value="Envoyer"></p>
+
+
+        </fieldset>
+      </form>
+      <script src="exReguliers.js"></script>
+    </body>
+</html>
