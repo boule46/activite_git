@@ -1,0 +1,160 @@
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\csc.exe
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\System.Collections.Immutable.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\System.Reflection.Metadata.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\vbc.exe
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\VBCSCompiler.exe
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\VBCSCompiler.exe.config
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\MonPremierFormulaire.dll.config
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\MonPremierFormulaire.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\MonPremierFormulaire.pdb
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Antlr3.Runtime.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\AspNet.ScriptManager.jQuery.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.SqlServer.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Google.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Web.Infrastructure.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Newtonsoft.Json.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Owin.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Optimization.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Providers.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\WebGrease.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Optimization.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Antlr3.Runtime.pdb
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Newtonsoft.Json.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.SqlServer.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Providers.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Google.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\System.Web.Optimization.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\EntityFramework.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.Google.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\obj\Debug\MonPremierFormulaire.csprojResolveAssemblyReference.cache
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\obj\Debug\MonPremierFormulaire.dll
+C:\Bost\MonPremierFormulaire\MonPremierFormulaire\obj\Debug\MonPremierFormulaire.pdb
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\csc.exe
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\vbc.exe
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\VBCSCompiler.exe
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\MonPremierFormulaire.dll.config
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\MonPremierFormulaire.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\MonPremierFormulaire.pdb
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Antlr3.Runtime.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.SqlServer.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Newtonsoft.Json.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Owin.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Optimization.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Providers.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\WebGrease.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Optimization.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Antlr3.Runtime.pdb
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Newtonsoft.Json.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\EntityFramework.SqlServer.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\System.Web.Providers.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\EntityFramework.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\bin\fr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\obj\Debug\MonPremierFormulaire.csprojResolveAssemblyReference.cache
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\obj\Debug\MonPremierFormulaire.dll
+C:\Users\CDI01\Documents\Visual Studio 2015\Projects\ASP\MonPremierFormulaire\MonPremierFormulaire\obj\Debug\MonPremierFormulaire.pdb

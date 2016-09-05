@@ -1,0 +1,20 @@
+﻿ body
+        {
+            color: Blue;
+            font-family: Arial;
+        }
+        .inputText
+        {
+            border: 0.1em solid blue;
+            background-color: rgb(114,197,151);
+            color: white;
+            margin-top: 0.3em;
+           
+        }
+       
+        .validator
+        {
+            color: red;
+
+
+        }
