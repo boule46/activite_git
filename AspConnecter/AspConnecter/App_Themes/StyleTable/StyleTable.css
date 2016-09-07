@@ -1,0 +1,25 @@
+﻿#table
+{
+    /*background-color: #0066ff;
+    color: white;*/
+    width: 100%;
+    text-align: center;
+}
+
+#th, #th1, #th2, #th3
+{
+    background-color: black;
+    color: white;
+}
+
+#tr:nth-child(even)
+{
+    background: #CCC;
+
+}
+
+#tr:nth-child(odd)
+{
+    background: #FFF;
+
+}
