@@ -12,6 +12,11 @@ namespace ConfigAppliWeb
 {
     public class Global : HttpApplication
     {
+
+        //Executer en mode release (au lieu de Debug
+
+
+
         void Application_Start(object sender, EventArgs e)
         {
             Application["AppliHeure"] = DateTime.Now;
