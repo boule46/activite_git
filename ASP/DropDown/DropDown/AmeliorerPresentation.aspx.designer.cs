@@ -10,16 +10,7 @@
 namespace DropDown {
     
     
-    public partial class WebForm1 {
-        
-        /// <summary>
-        /// Contrôle DropDownList1.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+    public partial class AmeliorerPresentation {
         
         /// <summary>
         /// Contrôle GridView1.
@@ -31,31 +22,31 @@ namespace DropDown {
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// Contrôle EventBox.
+        /// Contrôle SqlDataSourceProductName.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EventBox;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceProductName;
         
         /// <summary>
-        /// Contrôle SqlDataSource3.
+        /// Contrôle SqlDataSourceSuppliers.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource3;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceSuppliers;
         
         /// <summary>
-        /// Contrôle SqlDataSource2.
+        /// Contrôle SqlDataSourceCategories.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceCategories;
         
         /// <summary>
         /// Contrôle SqlDataSource1.
