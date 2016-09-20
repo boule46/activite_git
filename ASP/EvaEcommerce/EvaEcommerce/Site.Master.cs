@@ -111,34 +111,34 @@ namespace EvaEcommerce
 
         }
 
-        public void getSousCategoryMenu(int nombre)
-        {
-            int i = 0;
-            DS = new DataSetEcommerce();
-            TA = new CategoryTableAdapter();
-            TA.FillByParentCategoryId(DS.Category, nombre);
+        //public void getSousCategoryMenu(int nombre)
+        //{
+        //    int i = 0;
+        //    DS = new DataSetEcommerce();
+        //    TA = new CategoryTableAdapter();
+        //    TA.FillByParentCategoryId(DS.Category, nombre);
 
-            StringBuilder SBSous = new StringBuilder();
+        //    StringBuilder SBSous = new StringBuilder();
 
-            foreach (DataSetEcommerce.CategoryRow item in DS.Category)
-            {
-                if(i == 0)
-                {
-                    SBSous.Append("< ul class='dropdown-menu'>" + " <li><a href='#'>" + item.Name + "</a></li>");
-                }
-                else
-                {
-                    SBSous.Append(" <li><a href='#'>" + item.Name + "</a></li>");
-                }
+        //    foreach (DataSetEcommerce.CategoryRow item in DS.Category)
+        //    {
+        //        if(i == 0)
+        //        {
+        //            SBSous.Append("< ul class='dropdown-menu'>" + " <li><a href='#'>" + item.Name + "</a></li>");
+        //        }
+        //        else
+        //        {
+        //            SBSous.Append(" <li><a href='#'>" + item.Name + "</a></li>");
+        //        }
 
 
 
-                i++;
-            }
+        //        i++;
+        //    }
 
-            SBSous.Append("</ul>");
+        //    SBSous.Append("</ul>");
 
-            .innerHTML = SBSous.ToString();
+        //    .innerHTML = SBSous.ToString();
 
     }
     
