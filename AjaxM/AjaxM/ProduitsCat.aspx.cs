@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using Newtonsoft.Json;
 
@@ -18,9 +14,9 @@ namespace AjaxM
 
             string commandText = "select ProductID, ProductName from Products where CategoryID = @CategoryID;";
 
-            Dictionary<string, string> listProduit = new Dictionary<string, string>();
+            List<ClassProduit> listProduit = new List<ClassProduit>();
 
-            using (SqlConnection connection = new SqlConnection("Data Source=EVA;Initial Catalog=ComptoirAnglais_V1;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-5A9RHHB;Initial Catalog=ComptoirAnglais_V1;Integrated Security=True"))
             {
                 SqlCommand command = new SqlCommand(commandText, connection);
                 command.Parameters.Add(new SqlParameter("@CategoryID", rechercheCat));
@@ -31,7 +27,8 @@ namespace AjaxM
                     {
                         while(reader.Read())
                         {
-                            listProduit.Add(reader.GetInt32(0).ToString(), reader.GetString(1));
+                        listProduit.Add(new ClassProduit() { ProductID = reader.GetInt32(0), ProductName = reader.GetString(1) });
+
                         }
                     }
                 
@@ -40,7 +37,7 @@ namespace AjaxM
             string json = JsonConvert.SerializeObject(listProduit, Formatting.Indented);
 
             Response.Clear();
-            Response.ContentType = "text/plain";
+            Response.ContentType = "application/json";
             Response.Write(json);
             Response.End();
 

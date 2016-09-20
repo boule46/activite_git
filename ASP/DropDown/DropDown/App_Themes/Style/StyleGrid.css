@@ -1,0 +1,16 @@
+﻿td a
+{
+    
+    color: white;
+    padding: 2%;
+    background-color: gray;
+    border-radius: 5px;
+   
+}
+
+td a:hover
+{
+     text-decoration: none;
+    color: orangered;
+}
+

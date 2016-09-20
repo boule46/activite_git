@@ -170,11 +170,16 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="AjaxCat.html" />
+    <Content Include="AjaxCategory.aspx" />
     <Content Include="AmeliorerPresentation.aspx" />
+    <Content Include="App_Themes\Details\Detail.css" />
+    <Content Include="App_Themes\Style\StyleGrid.css" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="DetailsViewInserted.aspx" />
     <Content Include="Esclave.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -183,6 +188,7 @@
     <Content Include="Account\Web.config" />
     <Content Include="Formulaire1.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="JavaScript1.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -337,6 +343,13 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AjaxCategory.aspx.cs">
+      <DependentUpon>AjaxCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AjaxCategory.aspx.designer.cs">
+      <DependentUpon>AjaxCategory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AmeliorerPresentation.aspx.cs">
       <DependentUpon>AmeliorerPresentation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -368,6 +381,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsViewInserted.aspx.cs">
+      <DependentUpon>DetailsViewInserted.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailsViewInserted.aspx.designer.cs">
+      <DependentUpon>DetailsViewInserted.aspx</DependentUpon>
     </Compile>
     <Compile Include="Esclave.aspx.cs">
       <DependentUpon>Esclave.aspx</DependentUpon>

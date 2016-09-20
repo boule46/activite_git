@@ -5,6 +5,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Diagnostics;
+using System.Data.Common;
+
 
 namespace DropDown
 {
@@ -34,5 +38,19 @@ namespace DropDown
             GridView1.EditIndex = 1;
         }
 
+        protected void SqlDataSource1_Deleted(object sender, SqlDataSourceStatusEventArgs e)
+        {
+            if(e.Exception != null)
+            {
+                LabelErreur.Text = "Vous ne pouvez pas supprimer ce champs car il est en commande!";
+                e.ExceptionHandled = true;
+            }
+        }
+
+        protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            LabelCommandName.Text = e.CommandName;
+            LabelCommandArgument.Text = e.CommandArgument.ToString();
+        }
     }
 }

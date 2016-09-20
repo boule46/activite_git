@@ -23,13 +23,12 @@ function lireDonnees(donnees)
     var zoneText = document.getElementById("dropDown");
     var option;
 
-    for (var i = 0; i < Object.keys(cat).length ; i++) {
+    for (var i = 0; i < cat.length ; i++) {
 
        
         option = document.createElement("option");
-        option.value = Object.keys(cat)[i];
-        option.text = Object(cat)[++i];
-        i = --i;
+        option.value = cat[i].CategoryID;
+        option.text = cat[i].CategoryName;
         //zoneText.text = cat.value[i];
         zoneText.appendChild(option);
     }
@@ -60,22 +59,18 @@ function lireProduits(donnees)
     var prod = new Array();
     prod = JSON.parse(donnees);
     var zoneText = document.getElementById("tableProd");
-    var td;
+    zoneText.innerHTML = "";
 
-    for(var key in prod)
-    {
-        td = document.createElement("td");
-        td.text = prod[key];
-        zoneText.appendChild(td);
+    for (var i = 0; i < prod.length ; i++) {
+        var tr = document.createElement("tr");
+        var td = document.createElement("td");
+        td.textContent = prod[i].ProductID;
+        tr.appendChild(td);
+        var td2 = document.createElement("td");
+        td2.textContent = prod[i].ProductName;
+        tr.appendChild(td2)
+        zoneText.appendChild(tr);
     }
 
-    //for (var i = 0; i < Object.keys(prod).length ; i++) {
-    //    td = document.createElement("tr");
-    //    td = document.createElement("td");
-    //    td.value = Object.keys(prod)[i];
-    //    td.text = Object.(prod)[i];
-    //    zoneText.text = cat.value[i];
-    //    zoneText.appendChild(td);
-    //}
 
 }
