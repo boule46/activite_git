@@ -4594,11 +4594,20 @@ WHERE ParentCategoryId = @ParentCategoryId;";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = @"SELECT Id, ProductTypeId, ParentGroupedProductId, VisibleIndividually, Name, ShortDescription, FullDescription, AdminComment, ProductTemplateId, ShowOnHomePage, MetaKeywords, MetaDescription, MetaTitle, IsRental, RentalPriceLength, RentalPricePeriodId, IsTaxExempt, TaxCategoryId, StockQuantity, DisplayStockAvailability, DisplayStockQuantity, MinStockQuantity, OrderMinimumQuantity, OrderMaximumQuantity, DisableBuyButton, DisableWishlistButton, Price, OldPrice, SpecialPrice, SpecialPriceStartDateTimeUtc, SpecialPriceEndDateTimeUtc, Weight, Length, Width, Height, AvailableStartDateTimeUtc, AvailableEndDateTimeUtc, DisplayOrder, Published, Deleted, CreatedOnUtc, UpdatedOnUtc FROM dbo.Product";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = @"SELECT        Category.Id, Product.Id AS Expr1, Product.Name, Product.ShortDescription, Product.FullDescription, Product.Price
+FROM            Product INNER JOIN
+                         Product_Category_Mapping ON Product.Id = Product_Category_Mapping.ProductId INNER JOIN
+                         Category ON Product_Category_Mapping.CategoryId = Category.Id
+WHERE        (Category.Id = @CategoryId)";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CategoryId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4620,6 +4629,32 @@ WHERE ParentCategoryId = @ParentCategoryId;";
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual DataSetEcommerce.ProductDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            DataSetEcommerce.ProductDataTable dataTable = new DataSetEcommerce.ProductDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByCategoryID(DataSetEcommerce.ProductDataTable dataTable, int CategoryId) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(CategoryId));
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual DataSetEcommerce.ProductDataTable GetDataByCategoryID(int CategoryId) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(CategoryId));
             DataSetEcommerce.ProductDataTable dataTable = new DataSetEcommerce.ProductDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;

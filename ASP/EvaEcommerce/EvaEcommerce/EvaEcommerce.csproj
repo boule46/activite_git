@@ -199,6 +199,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Produit.aspx" />
     <Content Include="RemplirDOMelements.aspx" />
     <Content Include="RequestJavaScript.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -387,7 +388,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HandlerImage.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Produit.aspx.cs">
+      <DependentUpon>Produit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Produit.aspx.designer.cs">
+      <DependentUpon>Produit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemplirDOMelements.aspx.cs">
       <DependentUpon>RemplirDOMelements.aspx</DependentUpon>

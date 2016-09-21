@@ -10,6 +10,8 @@ using Microsoft.AspNet.Identity;
 using EvaEcommerce.DataSetEcommerceTableAdapters;
 using System.Text;
 using Newtonsoft.Json;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace EvaEcommerce
 {
@@ -85,60 +87,42 @@ namespace EvaEcommerce
 
         public void getPrincipalesCategoryMenu()
         {
-            int i = 0;
 
             DS = new DataSetEcommerce();
             TA = new CategoryTableAdapter();
-            TA.FillByParentCategoryId(DS.Category, 0);
+            TA.Fill(DS.Category);
 
             StringBuilder SB = new StringBuilder();
 
             foreach (DataSetEcommerce.CategoryRow item in DS.Category)
             {
-                
-                if (i < 3)
+                if(item.ParentCategoryId == 0)//si c'est des menu parent
                 {
-                    SB.Append("<li class='DropDown'>" + "<a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" + item.Name + "<span class='caret'></span></a>" + "</li>");
-                }
-                else { SB.Append("<li><a href='#'>" + item.Name + "</a></li>"); }
+                    DataRow[] ligneEnfants = DS.Category.Select("ParentCategoryId = " + item.Id);
+                    if (ligneEnfants.Length > 0)//si les menu ont des souscategories
+                    {
+                        SB.Append("<li class='DropDown'>" + "<a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" + item.Name + "<span class='caret'></span></a>");
 
-                i++;
-                    
+                        SB.Append("<ul class='dropdown-menu'>");
+
+                        foreach (DataSetEcommerce.CategoryRow element in ligneEnfants)
+                        {
+                            SB.AppendFormat("<li><a href=\"Produit.aspx?categoryId={0}\">{1}</a></li>", element.Id, element.Name);
+                        }
+
+                        SB.Append("</ul></li>");
+
+                    }
+                    else { SB.Append("<li><a href='#'>" + item.Name + "</a></li>"); }//si il n'y a pas des sous-categories
+                }
 
             }
 
-            catPrin.InnerHtml = SB.ToString(); ;
+            catPrin.InnerHtml = SB.ToString(); // + SBsous.ToString();
 
         }
 
-        //public void getSousCategoryMenu(int nombre)
-        //{
-        //    int i = 0;
-        //    DS = new DataSetEcommerce();
-        //    TA = new CategoryTableAdapter();
-        //    TA.FillByParentCategoryId(DS.Category, nombre);
-
-        //    StringBuilder SBSous = new StringBuilder();
-
-        //    foreach (DataSetEcommerce.CategoryRow item in DS.Category)
-        //    {
-        //        if(i == 0)
-        //        {
-        //            SBSous.Append("< ul class='dropdown-menu'>" + " <li><a href='#'>" + item.Name + "</a></li>");
-        //        }
-        //        else
-        //        {
-        //            SBSous.Append(" <li><a href='#'>" + item.Name + "</a></li>");
-        //        }
-
-
-
-        //        i++;
-        //    }
-
-        //    SBSous.Append("</ul>");
-
-        //    .innerHTML = SBSous.ToString();
+        
 
     }
     
