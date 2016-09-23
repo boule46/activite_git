@@ -113,12 +113,14 @@ namespace EvaEcommerce
                         SB.Append("</ul></li>");
 
                     }
-                    else { SB.Append("<li><a href='#'>" + item.Name + "</a></li>"); }//si il n'y a pas des sous-categories
+                    else { SB.AppendFormat("<li><a href=\"Produit.aspx?categoryId={0}\">{1}</a></li>", item.Id, item.Name); }//si il n'y a pas des sous-categories
+
+
                 }
 
             }
 
-            catPrin.InnerHtml = SB.ToString(); // + SBsous.ToString();
+            catPrin.InnerHtml = SB.ToString();
 
         }
 

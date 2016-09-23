@@ -16,7 +16,7 @@ namespace EvaEcommerce
     {
         private DataSetEcommerce DS;
         private ProductTableAdapter PTA;
-        private CategoryTableAdapter CTA;
+        private Product_Picture_MappingTableAdapter PICTA;
         protected void Page_Load(object sender, EventArgs e)
         {
             AfficherCategorie();
@@ -28,25 +28,49 @@ namespace EvaEcommerce
 
         public void AfficherCategorie()
         {
-            string CategorieID = this.Request.Params.ToString();
+            var CategorieID = this.Request.Params["categoryId"];
+            
 
             DS = new DataSetEcommerce();
             DS.EnforceConstraints = false;
             PTA = new ProductTableAdapter();
            
-           PTA.FillByCategoryID(DS.Product, 2);
+           PTA.FillByCategoryID(DS.Product, Convert.ToInt32(CategorieID));
     
             StringBuilder SBproduct = new StringBuilder();
 
             foreach (DataSetEcommerce.ProductRow item in DS.Product)
             {
-                SBproduct.AppendFormat("<section><h1>{0} (Réf: {1})</h1><p>{2}</p><p>Prix: {3}<hr/>", item.Name, item.Id, item.ShortDescription, item.Price);
+                PICTA = new Product_Picture_MappingTableAdapter();
+                int PictureID1 = PICTA.FillByGetPictureID(DS.Product_Picture_Mapping, item.Id);
+
+                SBproduct.AppendFormat("<section><h1>{0} (Réf: {1})</h1><img src=\"a.imgg?Productid={1}\" alt=\"image du produit {0}\" height=\"150\" width=\"250\"><p>{2}</p><p><input type=\"button\" class=\"btn btn-info\" onclick='RequeteAjax({1})' value=\"Plus d'information\" /><p id=\"fullDescriptionProduit\"></p><p>Prix: {3}<button type=\"button\" class=\"btn btn-success\" data-toggle=\"modal\" data-target=\"#myModal\"><span class=\"glyphicon glyphicon-shopping-cart\" aria-hidden=\"true\"></span> Dans mon panier</button></p></section><hr/>", item.Name, item.Id, item.ShortDescription, item.Price);
             }
 
 
             ProduitsAff.InnerHtml = SBproduct.ToString();
+
+
         }
 
+        protected void myModal_Load(object sender, EventArgs e)
+        {
+            var id = this.Request.Params["idPN"];
 
+            DS = new DataSetEcommerce();
+            DS.EnforceConstraints = false;
+            PTA = new ProductTableAdapter();
+
+            PTA.FillByProductID(DS.Product, /*Int32.Parse(id)*/ 4).ToString();
+
+            StringBuilder SB = new StringBuilder();
+
+            foreach (DataSetEcommerce.ProductRow item in DS.Product)
+            {
+                SB.Append(item.Name);
+            }
+
+            cookieID.InnerHtml = SB.ToString() + " (Réf:" +/* id.ToString()*/ 4 + ")";
+        }
     }
 }

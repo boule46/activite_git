@@ -1,9 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Produit.aspx.cs" Inherits="EvaEcommerce.Produit" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="PanierTemp2.aspx.cs" Inherits="EvaEcommerce.PanierTemp2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<div id="ProduitsAff" runat="server"></div>
-
- <div class="modal fade" tabindex="-1" role="dialog" id="myModal" runat="server" onload="myModal_Load">
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -27,8 +25,11 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
 
-
-
-    <script src="AppelFullDescriptions.js"></script>
+<script>$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+})</script>
 </asp:Content>

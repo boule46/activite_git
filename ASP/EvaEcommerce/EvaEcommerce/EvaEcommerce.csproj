@@ -171,6 +171,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="AppelFullDescriptions.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -199,6 +200,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="FullDescription1.aspx" />
+    <Content Include="MonPanier.aspx" />
+    <Content Include="PanierTemp.aspx" />
+    <Content Include="PanierTemp2.aspx" />
     <Content Include="Produit.aspx" />
     <Content Include="RemplirDOMelements.aspx" />
     <Content Include="RequestJavaScript.js" />
@@ -385,11 +390,39 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FullDescription1.aspx.cs">
+      <DependentUpon>FullDescription1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FullDescription1.aspx.designer.cs">
+      <DependentUpon>FullDescription1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HandlerImage.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="MonPanier.aspx.cs">
+      <DependentUpon>MonPanier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonPanier.aspx.designer.cs">
+      <DependentUpon>MonPanier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanierTemp.aspx.cs">
+      <DependentUpon>PanierTemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanierTemp.aspx.designer.cs">
+      <DependentUpon>PanierTemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanierTemp2.aspx.cs">
+      <DependentUpon>PanierTemp2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanierTemp2.aspx.designer.cs">
+      <DependentUpon>PanierTemp2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Produit.aspx.cs">
       <DependentUpon>Produit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
